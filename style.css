@@ -1,0 +1,258 @@
+*{
+    font-family: cwTeXFangSong,serif;
+}
+nav{
+    font-size: 6em;
+}
+nav .right{
+    margin-left: 20em;
+}
+.nav-item {
+    padding-left: 2em;
+}
+.navbar-brand{
+    margin-left: 15%;
+}
+body{
+    display: flex;
+    flex-direction: column  ;
+
+    
+}
+.title{
+    background: url(./assest/head.png) no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 210em;
+}
+.title .c-container{
+    
+    width: 90%;
+    height: 210em;
+}
+.title .bar{
+    
+}
+.title .simple-text{
+    margin: 20% 0%;
+}
+.title .simple-text p{
+    
+    padding-top: 3em;
+    font-size: 8em;
+    line-height: 2.5em;
+}
+
+
+.section-bar{
+    background-color:#EF8354  ;
+    align-content: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 0.6em;
+   
+    
+}
+.section{
+    width: 100%;
+
+    margin-bottom: 50em;
+    padding:0% 5%;
+}
+ .section-title{
+    margin-top: 2em;
+    font-size: 13em;
+    width: 100%;
+    text-align: center;
+    line-height: 0.5em;
+}
+.s1 .section-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+
+}
+.s1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.s1 .maintext{
+    padding-top: 1em;
+    font-size: 9em;
+    line-height: 2em;
+    width: 100%;
+}
+.s1 .subtext{
+    padding-top: 3em;
+    font-size: 6em;
+    line-height: 2em;
+    width: 75%;
+    align-self:flex-start;
+}
+.s1 .smallLogo{
+    align-self: flex-end;
+    margin-top: -20em;
+    margin-right: -30em;
+}
+.s2{
+    width:100%;
+    padding:0% 0%;
+}
+.s2 .section-main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding:0% 5%;
+    margin-top: 10em;
+}
+.s2 .s2-card{
+    width: 33.333%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: start;
+    padding:0% 5%;
+    height:160em;
+
+}
+.s2 .s2-card h2{
+    font-size: 8em;
+    align-self: start;
+    margin-left: 0.5em;
+    margin-top: 1em;
+}
+.s2 .s2-card .small-bar{
+    width: 100%;
+    height: 2.5em;
+    margin-top: 2%;
+    margin-bottom: 8%;
+    background-color: #4F5D75;
+}
+.s2 .s2-card p{
+    width: 98%;
+    font-size: 5em;
+    text-align: justify;
+    height: 70%;
+}
+.s2 .s2-card .card-contain{
+    margin-top: 10em;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: start;
+    height: 100%;
+}
+.s2 .s2-card button{
+    font-size: 5em;
+
+    max-width: 8em;
+    min-width: 5em;
+    border-radius: 10%;
+    align-self: flex-end;
+    
+    
+}
+.s3 .s3-card .bar-top{
+    background-color: #EF8354;
+    height: 12em;
+    color: aliceblue;
+    line-height: 12em;
+    padding-left: 60%;
+    margin-top: 50em;
+}
+.s3 .s3-card .bar-top p{
+    font-size: 6em;
+    
+}
+.s3 .s3-card .bar-side{
+    background-color: #4F5D75;
+    height: 18em;
+    line-height: 18em;
+    color: aliceblue;
+    padding-left: 60%;
+}
+.s3 .s3-card .bar-side p{
+    font-size: 8em;
+    
+}
+.s3 .s3-card .bar-bottom{
+    background-color: white;
+    height: 12em;
+    line-height: 12em;
+    padding-left: 60%;
+}
+.s3 .s3-card .text-type{
+    line-height: 2em;
+    font-size: 6em;
+}
+.s3 .s3-card img{
+    float: left;
+    margin-top: -30em;
+    margin-left: 20em;
+    width:90em;
+    height: 120em;
+}
+.s3 .s3-card button{
+    margin-left: 14em;
+    font-size: 5em;
+    margin-top: 5%;
+    border-radius: 10%;
+    padding: 0.5% 0.5%;
+}
+.s3 .s3-card {
+    margin-bottom: 20em;
+    height: 33.3%;
+}
+.s3 .section-main{
+    height: 350em;
+}
+.s3 .s3-card .card-right{
+    padding-left: 20%;
+}
+.s3 .c-right img{
+    float: right;
+    margin-right: 20em;
+
+}
+.s3 .c-right button{
+    margin-left: 12em;
+}
+footer{
+    background-color: #4F5D75;
+    color: white;
+}
+.foot{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height:15em;
+    font-size: 5em;
+}
+.foot-logo{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.foot-logo span{
+    margin-top: 1em;
+}
+.foot li{
+    line-height: 2.5em;
+    list-style-type: none;
+}
+.foot-socia{
+    margin-right: 1em;
+}
+@font-face {
+    font-family: 'cwTeXFangSong';
+    font-style: normal;
+    font-weight: 500;
+    src: url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.eot);
+    src: url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.eot?#iefix) format('embedded-opentype'),
+         url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.woff2) format('woff2'),
+         url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.woff) format('woff'),
+         url(//fonts.gstatic.com/ea/cwtexfangsong/v3/cwTeXFangSong-zhonly.ttf) format('truetype');
+  }
